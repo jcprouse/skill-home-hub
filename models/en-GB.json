@@ -1,0 +1,38 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"Home",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+                    "name":"GetRouterDetailsIntent",
+                    "slots":[
+
+                    ],
+                    "samples":[
+                        "get router info",
+                        "get router details",
+                        "tell me my router info",
+                        "tell me the router details",
+                        "get wifi info",
+                        "get wifi details",
+                        "tell me my wifi info",
+                        "tell me the wifi details"
+                    ]
+                }
+            ]
+        }
+    }
+}
